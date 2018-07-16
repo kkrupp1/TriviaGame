@@ -88,7 +88,7 @@ function newQuestion(){
 
 
     // sets up a new questions and answers list
-    $('#currentQuestion').html('Question: ' + (currentQuestion+1)+"/"+triviaQuestions.length);
+    $('#currentQuestion').html('Question: ' + (currentQuestion+1)+" out of "+triviaQuestions.length);
     $('.question').html('<h2>' + triviaQuestions[currentQuestion].question + '</h2>');
     for( var i = 0; i < 4; i++) {
         var choices = $('<div>');
