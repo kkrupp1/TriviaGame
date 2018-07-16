@@ -1,0 +1,31 @@
+
+
+body, html {
+    height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("/Users/kylekrupp/Documents/TriviaGame/assets/images/greenmonstah.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.thisChoice:hover{
+    background-color: darkblue;
+    width: 30%;
+    color: red;
+}
+
+#startOverBtn{
+    background-color:blue;
+    color:white;
+    width:10%;
+
+}

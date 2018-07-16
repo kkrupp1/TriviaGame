@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Link to Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+
+    <!--Link to Custom CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Red Sox Trivia</title>
+</head>
+
+<body>
+
+    <div class="bg">
+        <header>
+            <img src='assets/images/Red-Sox-logo.png' alt='Red Sox Insignia' class="round mx-auto d-block">
+        </header>
+        <div class="container card">
+                <div class="card-body">
+                    <div class="card-text">How 'bout them Sox?! Press Start to begin a 10 question trivia game about the 2018 Boston Red Sox!</div>
+                    <br>
+                    <button class='btn btn-primary btn-lg btn-block' id='startBtn'>Start</button>
+                    <!-- Question page -->
+                    <div id='timeLeft'></div>
+                    <div id='currentQuestion'></div>
+                    <div class='question'></div>
+                    <div class='answerList'></div>
+                    <!-- Answer page -->
+                    <div id='message'></div>
+                    <div id='correctedAnswer'></div>
+                    <div id='img'></div>
+                    <!-- Scoreboard -->
+                    <div id='finalMessage'></div>
+                    <div id='correctAnswers'></div>
+                    <div id='incorrectAnswers'></div>
+                    <div id='unanswered'></div>
+                    <div id='startOverBtn'></div>
+                </div>
+            </div>
+        </div>
+    <audio autoplay loop>
+        <source src="./assets/music/SweetCaroline.mp3">
+    </audio>
+
+
+    <!--Link to jQuery framework-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!--Link to JS file-->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
