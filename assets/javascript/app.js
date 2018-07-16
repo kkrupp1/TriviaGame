@@ -25,7 +25,7 @@ var triviaQuestions = [{
     answer: 2
 },{
     question: "Which player has the most RBI's in the MLB?",
-    answerList: ["Jose Ramirez", "Manny Machado", "Javier Bez", "J.D. Martinez"],
+    answerList: ["Jose Ramirez", "Manny Machado", "Javier Baez", "J.D. Martinez"],
     answer: 3
 },{
     question: "What band sings Fenway's cherished 'Sweet Caroline' played at top of the 8th inning?'",
